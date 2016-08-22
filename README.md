@@ -1,5 +1,5 @@
 ##Specs
-_behavior: Takes user input and lists out location, year, season and highlights
+*_behavior: Takes user input and lists out location, year, season and highlights
 Input: Oregon, 1999, Winter, Skiing
 Output: Location: Oregon, Year: 1999, Season: Winter, Highlights: Skiing.
 
