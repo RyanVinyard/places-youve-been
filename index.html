@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script   src="https://code.jquery.com/jquery-3.1.0.js"   integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk="   crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Places You've Been</title>
+  </head>
+  <body>
+    <div class = "container">
+      <h1>Ghost of Vacations Past</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add a place</h2>
+          <form id = "places-form">
+            <div class="form-group">
+              <label for="locations">Location: </label>
+              <input id="locations" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="year">Year: </label>
+              <input id="year" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="season">Season: </label>
+              <input id="season" type="text" class="form-control">
+            </div>
+            <div class="form-group">
+              <label for="highlights">Highlights: </label>
+              <input id="highlights" type="text" class="form-control">
+            </div>
+            <button type="submit" class="btn btn-info">Add</button>
+          </form>
+        </div>
+        <ul id="places">
+        <div class="col-md-6">
+          <div id="show-places">
+            <h2></h2>
+            <p>Location: <span class="locations"></span></p>
+            <p>Year: <span class="year"></span></p>
+            <p>Season: <span class="season"></span></p>
+            <p>Highlights: <span class="highlights"></span></p>
+        </ul>
+        </div>
+      </div>
+
+      </div>
+    </div>
+  </body>
+</html>
